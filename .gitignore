@@ -1,4 +1,4 @@
-vendor/
+vendor/*
 !vendor/.gitkeep
-bin/
+bin/*
 !bin/.gitkeep
