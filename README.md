@@ -3,10 +3,11 @@
 ## Install
 
 ```
-git clone https://github.com/tommy-muehle/php-repository-starter
+git clone https://github.com/tommy-muehle/php-repository-starter new-project
 cd php-repository-starter
 rm -rf .git/
 git init
+cat .gitconfig > .git/config
 ```
 
 ## Contributing
