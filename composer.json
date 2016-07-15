@@ -36,5 +36,8 @@
   },
   "require-dev": {
     "codeclimate/php-test-reporter": "dev-master"
+  },
+  "config": {
+    "bin-dir": "bin"
   }
 }
