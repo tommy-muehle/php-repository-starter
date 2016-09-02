@@ -10,8 +10,7 @@ matrix:
     - php: nightly
     - php: 7.0
       env: COVERAGE=yes
-    - php: 7.0
-      env: COMPOSER_FLAGS='--prefer-lowest --prefer-stable'
+    - php: 7.1
   allow_failures:
     - php: nightly
     - php: hhvm
@@ -20,7 +19,7 @@ before_install:
   - if [[ $TRAVIS_PHP_VERSION != hhvm && $COVERAGE != yes ]]; then phpenv config-rm xdebug.ini; fi;
   - composer selfupdate
 install:
-  - composer update $COMPOSER_FLAGS --no-interaction --prefer-source
+  - composer install --no-interaction --optimize-autoloader
 script:
   - ./bin/phpunit --coverage-clover build/logs/clover.xml
 after_success:
