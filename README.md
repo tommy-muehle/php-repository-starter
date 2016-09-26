@@ -1,4 +1,4 @@
-# My personal starter kit for a PHP repository
+# My personal starter kit for a PHP project
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg?style=flat-square)](https://php.net/)
@@ -19,9 +19,8 @@
 ## Install
 
 ```
-git clone https://github.com/tommy-muehle/php-repository-starter new-project
+composer create-project tm/new-php-project new-project --no-interaction
 cd new-project
-rm -rf .git/
 git init
 cat .gitconfig > .git/config
 ```
