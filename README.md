@@ -19,7 +19,7 @@
 ## Install
 
 ```
-composer create-project tm/new-php-project new-project --no-interaction
+composer create-project tm/new-php-project new-project --no-interaction --stability=dev
 cd new-project
 git init
 cat .gitconfig > .git/config
