@@ -37,6 +37,7 @@
   },
   "config": {
     "bin-dir": "bin",
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "sort-packages": true
   }
 }
