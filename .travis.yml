@@ -23,7 +23,7 @@ install:
 script:
   - ./bin/phpunit --coverage-clover build/logs/clover.xml
 after_success:
-  - ./bin/test-reporter
+  - {DO_SOMETHING}
 notifications:
   email: false
   webhooks:
