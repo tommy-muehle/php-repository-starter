@@ -14,7 +14,6 @@
 * PHPUnit configuration
 * License
 * Contributing instruction
-* Changelog template
 
 ## Install
 
